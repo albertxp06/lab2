@@ -9,12 +9,22 @@
 	color: #CC00AA;
 }
 
+/* Google Fonts */
+@import 'https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto:300,400,700';
+
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
+   
+*	{font-family: 'Roboto Condensed', 'Roboto', Calibri, Helvetica, Arial, sans-serif !important;
+	}
+	
+h1, h2, h3, h4, h5, h6, h7 {font-family: 'Roboto', Calibri, Helvetica, Arial, sans-serif !important;
+	}
+
 body {
-     border: 1px dotted gray;
-     padding: 20px;
-}
+	border: 1px dotted gray;
+	padding: 20px;
+	}
 
 .jumbotron {
 	position: relative;
@@ -31,4 +41,27 @@ body {
      right: 0;
      position: absolute;
      z-index: -1;	
+}
+
+img .thumbnail	{
+	width:	50px;	
+	height:	100px;	
+	border:	1px	solid	#434343;
+}	
+
+.contact-info {	
+	font-size:	10pt;	
+	color:	#cccccc;	
+}
+
+p {
+	font-variant: small-caps;
+}
+
+.project p {
+	font-variant: small-caps;
+}
+
+#project1 {
+	font-variant: small-caps;
 }
